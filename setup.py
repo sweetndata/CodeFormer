@@ -19,7 +19,7 @@ packages_facelib = ['facelib'] + [
 packages = ['CodeFormer'] + packages_basicsr + packages_facelib + ['facelib.detection.retinaface']
 setup(
     name='CodeFormer',
-    version='0.1',
+    version='0.2',
     zip_safe=False,
     install_requires=requirements,
     packages=packages,
